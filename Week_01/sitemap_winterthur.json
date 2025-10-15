@@ -1,0 +1,74 @@
+{
+    "_id": "winterthur",
+    "startUrl": [
+        "https://www.immoscout24.ch/de/wohnung/mieten/ort-winterthur?pn=[1-5]"
+    ],
+    "selectors": [
+        {
+            "id": "winterthur",
+            "parentSelectors": [
+                "_root"
+            ],
+            "type": "SelectorElement",
+            "selector": "div.HgListingCard_info_RKrwz",
+            "multiple": true,
+            "scroll": false,
+            "elementLimit": 0
+        },
+        {
+            "id": "rooms_area_price_raw",
+            "parentSelectors": [
+                "winterthur"
+            ],
+            "type": "SelectorText",
+            "selector": "div.HgListingCard_mainTitle_x0p2D",
+            "multiple": false,
+            "regex": "",
+            "multipleType": "singleColumn"
+        },
+        {
+            "id": "price_raw",
+            "parentSelectors": [
+                "winterthur"
+            ],
+            "type": "SelectorText",
+            "selector": "span.HgListingRoomsLivingSpacePrice_price_u9Vee",
+            "multiple": false,
+            "regex": "",
+            "multipleType": "singleColumn"
+        },
+        {
+            "id": "address_raw",
+            "parentSelectors": [
+                "winterthur"
+            ],
+            "type": "SelectorText",
+            "selector": "address",
+            "multiple": false,
+            "regex": "",
+            "multipleType": "singleColumn"
+        },
+        {
+            "id": "description_raw",
+            "parentSelectors": [
+                "winterthur"
+            ],
+            "type": "SelectorText",
+            "selector": "p span",
+            "multiple": false,
+            "regex": "",
+            "multipleType": "singleColumn"
+        },
+        {
+            "id": "text_raw",
+            "parentSelectors": [
+                "winterthur"
+            ],
+            "type": "SelectorText",
+            "selector": "p.HgListingDescription_large_uKs3J",
+            "multiple": false,
+            "regex": "",
+            "multipleType": "singleColumn"
+        }
+    ]
+}
